@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-3xl: 2000px;
+  --breakpoint-4xl: 3000px;
+  --color-forestGreen: #1b4332;
+  --color-mediumGreen: #3a7d44;
+  --color-lightMint: #c1f2b0;
+  --color-offWhite: #fbfbfb;
+  --color-graphite: #414141;
+  --color-cotton: #fdfdf5;
+  --font-sans: 'Rubik', sans-serif;
+}
