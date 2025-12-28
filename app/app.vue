@@ -1,7 +1,9 @@
 <template>
   <div>
-    <AboutMe />
     <NuxtRouteAnnouncer />
+
+    <AboutMe />
+    <Contact />
   </div>
 </template>
 

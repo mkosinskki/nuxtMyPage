@@ -10,12 +10,15 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@nuxt/image": "^2.0.0",
     "@tailwindcss/vite": "^4.1.18",
+    "emailjs": "^5.0.0",
     "nuxt": "^4.2.2",
     "tailwindcss": "^4.1.18",
     "vue": "^3.5.26",
-    "vue-router": "^4.6.4"
+    "vue-router": "^4.6.4",
+    "vue3-recaptcha2": "^1.8.0"
   },
   "devDependencies": {
     "@nuxtjs/google-fonts": "^3.2.0"
