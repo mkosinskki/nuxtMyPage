@@ -2,6 +2,7 @@
   <div>
     <NuxtRouteAnnouncer />
 
+    <Hero />
     <AboutMe />
     <Contact />
   </div>
