@@ -4,6 +4,7 @@
 
     <Hero />
     <AboutMe />
+    <Technologies />
     <Contact />
   </div>
 </template>
