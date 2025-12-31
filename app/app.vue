@@ -2,10 +2,14 @@
   <div>
     <NuxtRouteAnnouncer />
 
+    <!-- <Navbar /> -->
     <Hero />
     <AboutMe />
     <Technologies />
+    <Projects />
+    <!-- <Education /> -->
     <Contact />
+    <!-- <Footer /> -->
   </div>
 </template>
 
