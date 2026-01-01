@@ -7,7 +7,7 @@
     <AboutMe />
     <Technologies />
     <Projects />
-    <!-- <Education /> -->
+    <Education />
     <Contact />
     <!-- <Footer /> -->
   </div>
