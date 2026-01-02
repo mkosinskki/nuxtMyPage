@@ -9,7 +9,7 @@
     <Projects />
     <Education />
     <Contact />
-    <!-- <Footer /> -->
+    <Footer />
   </div>
 </template>
 

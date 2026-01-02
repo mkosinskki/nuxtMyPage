@@ -119,7 +119,7 @@ const projects = [
     name: 'Strona portfolio',
     photo: '/images/portfolio.png',
     description:
-      'Celem stworzenia tej strony było zebranie moich dotychczasowych projektów, umiejętności i przedstawienie ich w formie innej niż PDF z wygenerowanym CV. Stworzona z wykorzystaniem tailwindcss z elementami vue.js.',
+      'Celem stworzenia tej strony było zebranie moich dotychczasowych projektów, umiejętności i przedstawienie ich w formie innej niż PDF z wygenerowanym CV. Stworzona z wykorzystaniem nuxt (dla lepszego SEO) oraz tailwindcss.',
     technologies: ['Nuxt', 'Tailwind', 'EmailJS'],
     link: 'https://marcinkosinski.dev',
   },
