@@ -13,8 +13,13 @@ export default defineNuxtConfig({
 
   modules: [
     "@nuxt/image",
-    "@nuxtjs/google-fonts"
+    "@nuxtjs/google-fonts",
+    "@nuxtjs/sitemap",
   ],
+
+  site: {
+    url: 'https://www.marcinkosinski.dev',
+  },
 
   googleFonts: {
     families: {

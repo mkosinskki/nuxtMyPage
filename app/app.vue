@@ -16,7 +16,7 @@
 <script setup>
 useSeoMeta({
   title: 'Marcin Kosiński - Frontend Developer | Portfolio',
-  description: 'Cześć! Jestem Frontend Developerem z Białegostoku. Tworzę szybkie i nowoczesne strony w Vue.js, Nuxt 3 i Tailwind CSS. Zobacz moje projekty.',
+  description: 'Cześć! Jestem Frontend Developerem z Białegostoku. Tworzę szybkie i nowoczesne strony w Vue.js i Tailwind CSS. Zobacz moje projekty.',
   
   ogTitle: 'Marcin Kosiński - Frontend Developer',
   ogSiteName: 'Marcin Kosiński – Frontend Developer',
