@@ -2,36 +2,48 @@
   <div>
     <NuxtRouteAnnouncer />
 
-    <!-- <Navbar /> -->
+    <AppNavbar />
     <Hero />
     <AboutMe />
     <Technologies />
     <Projects />
     <Education />
     <Contact />
-    <Footer />
+    <AppFooter />
   </div>
 </template>
 
 <script setup>
-useHead({
-  htmlAttrs: { lang: 'pl' },
+useSeoMeta({
   title: 'Marcin Kosiński - Frontend Developer | Portfolio',
-  meta: [
-    { name: 'description', content: 'Portfolio Marcina Kosińskiego...' },
-    
-    { name: 'keywords', content: 'Frontend Developer, Vue.js, Nuxt, Tailwind, Białystok, Programista, Tworzenie stron' },
+  description: 'Cześć! Jestem Frontend Developerem z Białegostoku. Tworzę szybkie i nowoczesne strony w Vue.js, Nuxt 3 i Tailwind CSS. Zobacz moje projekty.',
+  
+  ogTitle: 'Marcin Kosiński - Frontend Developer',
+  ogSiteName: 'Marcin Kosiński – Frontend Developer',
+  ogDescription: 'Szukasz programisty Vue.js? Zobacz moje portfolio, projekty i umiejętności techniczne.',
+  ogImage: 'https://www.marcinkosinski.dev/images/og-image.png',
+  ogUrl: 'https://www.marcinkosinski.dev',
+  ogType: 'website',
+  ogLocale: 'pl_PL',
 
-    { property: 'article:tag', content: 'Frontend Development' },
-    { property: 'article:tag', content: 'Vue.js' },
-    { property: 'article:tag', content: 'Web Performance' },
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'Marcin Kosiński - Portfolio',
+  twitterDescription: 'Frontend Developer: Vue.js, Nuxt, Tailwind.',
+  twitterImage: 'https://www.marcinkosinski.dev/images/og-image.png',
 
-    { property: 'og:title', content: 'Marcin Kosiński - Frontend Developer' },
-    { property: 'og:description', content: 'Zobacz moje projekty i dowiedz się więcej o moim doświadczeniu.' },
-    { property: 'og:image', content: 'https://www.marcinkosinski.dev/images/og-image.jpg' },
-    { property: 'og:type', content: 'website' }
+  keywords: 'Frontend Developer, Vue.js, Nuxt, Tailwind, Białystok, Programista, Tworzenie stron, Web Development',
+  themeColor: '#1b4332'
+})
+
+useHead({
+  htmlAttrs: { 
+    lang: 'pl', 
+    class: 'scroll-smooth scroll-pt-20' 
+  },
+  link: [
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    { rel: 'canonical', href: 'https://www.marcinkosinski.dev' },
   ],
-
   script: [
     {
       type: 'application/ld+json',
@@ -46,12 +58,17 @@ useHead({
           "@type": "CollegeOrUniversity",
           "name": "Politechnika Białostocka"
         },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Białystok",
+          "addressCountry": "PL"
+        },
         "description": "Frontend Developer i student informatyki z Białegostoku.",
         "sameAs": [
           "https://github.com/mkosinskki",
           "https://www.linkedin.com/in/marcin-kosiński-80825633a",
         ],
-        "knowsAbout": ["Vue.js", "Nuxt", "JavaScript", "Tailwind CSS"],
+        "knowsAbout": ["Vue.js", "Nuxt", "JavaScript", "Tailwind CSS", "Git"],
       })
     }
   ]
