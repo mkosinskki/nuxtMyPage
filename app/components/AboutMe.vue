@@ -14,8 +14,8 @@
             class="w-60 h-auto md:w-96 group-hover:scale-105 duration-150 rounded-t-lg object-cover"
           />
 
-          <NuxtLink 
-            to="#contact" 
+          <a
+            href="#contact" 
             title="Przejdź do kontaktu"
             class="block group-hover:scale-105 transition-transform duration-150"
           >
@@ -24,7 +24,7 @@
             >
               Skontaktuj się ze mną!
             </div>
-          </NuxtLink>
+          </a>
         </div>
       </div>
 

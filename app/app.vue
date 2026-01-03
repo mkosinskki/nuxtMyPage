@@ -42,6 +42,9 @@ useHead({
   },
   link: [
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    { rel: 'icon', type: 'image/png', sizes: '192x192', href: '/images/icon.png' },
+    { rel: 'icon', type: 'image/png', sizes: '512x512', href: '/images/icon512.png' },
+    { rel: 'apple-touch-icon', href: '/images/icon.png' },
     { rel: 'canonical', href: 'https://www.marcinkosinski.dev' },
   ],
   script: [

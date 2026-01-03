@@ -44,7 +44,7 @@
             </p>
 
             <a
-              class="text-forestGreen font-bold hover:scale-105 duration-150 hover:text-mediumGreen inline-flex items-center gap-2"
+              class="text-forestGreen font-bold hover:scale-105 duration-150 hover:text-mediumGreen items-center text-center gap-2"
               :href="project.link"
               target="_blank"
               rel="noopener noreferrer"
